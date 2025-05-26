@@ -39,7 +39,7 @@ jobs:
     permissions:
       id-token: write
 
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Azure Login
         uses: azure/login@v2
